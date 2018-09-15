@@ -77,14 +77,15 @@ NC|17|18|GND
 SWD connector pinout:
 Name|Pin|Pin|Name
 -|-|-|-
-RST*|1|2|SWDIO
+RST\*|1|2|SWDIO
 GND|3|4|GND
-SWO*|5|6|SWCLK
+SWO\*|5|6|SWCLK
 3.3V|7|8|3.3V
-5V**|9|10|5V**
+5V\*\*|9|10|5V\*\*
 
-* - not connected on the device, need to modify ST-Link
-** - not connected on adapter
+\* - not connected on the device, need to modify ST-Link
+
+\*\* - not connected on adapter board
 
 ### Chinese MX-Link dongle
 
@@ -93,14 +94,15 @@ SWO*|5|6|SWCLK
 SWD connector pinout:
 Name|Pin|Pin|Name
 -|-|-|-
-RST*|1|2|SWCLK
-SWO*|3|4|SWDIO
+RST\*|1|2|SWCLK
+SWO\*|3|4|SWDIO
 GND|5|6|GND
 3.3V|7|8|3.3V
-5V**|9|10|5V**
+5V\*\*|9|10|5V\*\*
 
-* - not connected on the device, need to modify MX-Link
-** - not connected on adapter
+\* - not connected on the device, need to modify MX-Link
+
+\*\* - not connected on adapter
 
 ### Nucleo-32 original ST-Link V2-1 by STMicroelectronics
 
@@ -115,8 +117,7 @@ GND|2|1|SWDIO
 
 ### Nucleo-64 original ST-Link V2-1 by STMicroelectronics
 
-<img width="350" src="
-https://github.com/fronders/fronders.github.io/raw/master/stm32-debug-adapter/nucleo64.jpg" label="Nucleo-64 original ST-Link V2-1">
+<img width="350" src="https://github.com/fronders/fronders.github.io/raw/master/stm32-debug-adapter/nucleo64.jpg" label="Nucleo-64 original ST-Link V2-1">
 
 CN4 connector pinout:
 Pin|Name
@@ -143,7 +144,7 @@ Pin|Name
 6|SWO
 
 ### Blue Pill board (STM32F103C8T6)
-<img width="350" src="https://github.com/fronders/fronders.github.io/raw/master/stm32-debug-adapter/Blue Pill.jpg" label="Blue Pill board">
+<img width="350" src="https://github.com/fronders/fronders.github.io/raw/master/stm32-debug-adapter/bluepill.jpg" label="Blue Pill board">
 
 Programming connector pinout:
 Pin|Name
@@ -154,7 +155,7 @@ Pin|Name
 4|3.3V
 
 ### Black Pill board (STM32F103C8T6)
-<img width="350" src="https://github.com/fronders/fronders.github.io/raw/master/stm32-debug-adapter/Black Pill.jpg" label="Black Pill board">
+<img width="350" src="https://github.com/fronders/fronders.github.io/raw/master/stm32-debug-adapter/blackpill.jpg" label="Black Pill board">
 
 Programming connector pinout:
 Pin|Name
