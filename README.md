@@ -2,7 +2,14 @@
 
 Adapter for various SWD programmers for STM32. 
 
-Autodesk Eagle CAD v9 files & gerber files (PCBWay format).
+<img width="600" src="https://github.com/fronders/fronders.github.io/raw/master/stm32-debug-adapter/stlink+adapter.jpg" label="STM32 debug adapter board rev.A with Chinese ST-Link V2 clone">
+<br />
+<img width="600" src="https://github.com/fronders/fronders.github.io/raw/master/stm32-debug-adapter/stm32%20debug%20adapter%20rev.A.jpg" label="STM32 debug adapter board rev.A top and bottom">
+
+This repo contains:
+- Autodesk Eagle CAD v9 project
+- PDF schematic & board layout
+- Gerber files (in PCBWay-compatible format: RS-274X + Excellon)
 
 What's here in README:
 - [Supported STM32 programmers](#Supported-STM32-programmers)
@@ -195,6 +202,11 @@ IDC-6 connector pinout:
 
 ## Rev. B board info (latest)
 
+PDF schematic & board:
+- [Rev. B single file](pdf/rev.B/stm32%20debug%20adapter%20rev.B.pdf)
+- [Rev. B schematic](pdf/rev.B/stm32%20debug%20adapter%20rev.B%20sch.pdf)
+- [Rev. B board](pdf/rev.B/stm32%20debug%20adapter%20rev.B%20brd.pdf)
+
 Solder jumper can be used with Original ST-Link to connect IDC-20 pin 19 VDD (3.3V) to rest of 3.3V (pins 1-2). **Jumper should remain open for use with J-Link, it has 3.3V output on pin 1, while pin 19 has 5V, might damage your board!**
 
 Changes:
@@ -218,6 +230,11 @@ Known issues:
 
 ## Rev. A board info
 
+PDF schematic & board:
+- [Rev. A single file](pdf/rev.A/stm32%20debug%20adapter%20rev.A.pdf)
+- [Rev. A schematic](pdf/rev.A/stm32%20debug%20adapter%20rev.A%20sch.pdf)
+- [Rev. A board](pdf/rev.A/stm32%20debug%20adapter%20rev.A%20brd.pdf)
+
 Changes:
 - Added Blue Pill / Black Pill board (STM32F103C8T6) connector
 
@@ -236,6 +253,9 @@ Known issues:
 <hr />
 
 ## Original board info
+
+PDF schematic & board:
+- [Original schematic](pdf/original/stm32%20debug%20adapter%20sch.pdf)
 
 Supported interfaces:
 - Chinese ST-Link V2 dongle
